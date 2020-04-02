@@ -1,0 +1,28 @@
+.App {
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.search-bar .search-bar__input {
+  width: 300px;
+  line-height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: medium;
+  text-indent: 4px;
+}
+.search-preview {
+  width: 304px;
+}
+.search-preview .preview-row {
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+  padding: 4px;
+}
+.search-preview .preview-row .preview-info {
+  display: flex;
+  justify-content: space-between;
+}
+.search-preview .preview-row .preview-age {
+  font-size: 12px;
+  color: #ccc;
+}
